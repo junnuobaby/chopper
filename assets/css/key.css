@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+.jumbotron-play{
+    height: 400px;
+    background-color: #93B9F4;
+    position: relative;
+}
+.canvas{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    bottom: 0;
+    height:100%;
+}
+.col{
+    width: 2%;
+    float: left;
+    min-height: 250px;
+    border-left: 1px solid #93B9F4;
+    border-right: 1px solid #93B9F4;
+    position: relative;
+    height: 100%;
+    bottom: 80px;
+}
+.bar{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: transparent linear-gradient(#a9ccef,#93B9F4) repeat scroll 0% 0%;
+    transition: all 1s ease 0.1s;
+    box-sizing: content-box;
+}
+.col:hover .bar{
+    transition: all 0.2s ease 0s;
+    padding: 120% 0;
+}

@@ -1,0 +1,51 @@
+一. application/views/文件夹
+
+1. templates文件夹下的页面说明
+    footer 页脚
+    head 头文件,链入外部样式表
+    jumptron 加载巨幕
+    navbar 顶部导航条
+
+2. pages文件夹下的页面说明
+    index   首页
+    register 注册页面
+    register_user_info 用户注册完跳转至此页面完善个人信息
+    login  登陆界面
+    authentication 实名认证页面
+
+3.  info 文件夹下的页面说明 (该文件夹下存放的均为静态的信息页面)
+    aboutus 关于我们
+    contactus 联系我们
+    user_help 帮助中心
+    lcs 理财师
+
+4.  master 文件夹下的页面说明 (该文件夹下存放理财师的个人空间页面)
+    master-sidebar 侧边栏组件，为菜单栏
+    master-profile 理财师的个人资料页面，可编辑个人资料
+
+5. user 文件夹下的页面说明 (该文件夹下存放理财师的个人空间页面)
+   user-sidebar 侧边栏组件，为菜单栏
+   user-profile 理财师的个人资料页面，可编辑个人资料
+
+
+二. assets/css/文件夹
+1.htycss
+layout.css 自定义样式文件
+global.css 网站公用基本样式
+forms.css 表单样式
+2.jqury.Jcrop.css Jcrop插件的外部样式文件
+其他均为外部css样式文件
+
+
+三. assets/css/js/文件夹
+1.htyjs  开发者自定义js文件夹
+general_navbar 用jquery动态设置顶部导航栏的样式
+basic_info_validation 对用户填写的个人信息内容进行前台验证
+master_profile 理财师个人信息修改页面相关的js
+
+2.webjs 网上开源js文件夹
+Region 收集用户居住地的插件
+jquery.Jcrop.js   一个jQuery图像裁剪插件
+
+3.其他均为框架类js文件
+moment.js为x-editable中combodate的外部依赖插件
